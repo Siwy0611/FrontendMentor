@@ -1,0 +1,38 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: hsl(212, 45%, 89%);
+  /* - Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+- Weights: 400, 700 */
+  font-family: Outfit;
+  font-size: 15px;
+}
+.card {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 10px;
+  width: 200px;
+}
+img {
+  object-fit: contain;
+  width: 100%;
+  border-radius: 10px;
+}
+p {
+  text-align: center;
+  width: 91%;
+}
+p:first-of-type {
+  font-weight: 700;
+}
+p:nth-of-type(2) {
+  font-weight: 400;
+  font-size: 11px;
+  color: gray;
+}
